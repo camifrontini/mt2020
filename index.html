@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 0px solid #f1f1f1; margin: 100px;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: left;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>HOLA JULI!</h2>
+
+<form name="form1">
+  <div class="imgcontainer">
+    <img src="https://drive.google.com/open?id=1XSef9WpZpJxtZeII9p1-mVFB_ZIQpEke" alt="Instrumento" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>¿Qué instrumento es?</b></label>
+    <input type="text" name="txt" placeholder="instrumento">
+
+    <label for="psw"><b>¿Cómo es tu nombre</b></label>
+    <input type="text" name="num" placeholder="julian">
+        
+ 	<input type="button" class="button" value="ENTRAR" onclick="usrpas()">
+    
+  </div>
+
+
+</form>
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="guitarra" && document.form1.num.value=="julian"){window.location="usuario.html"}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Esto es un comentario
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Puzzle Musicoterapia</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body scroll=no>
+
+<h2>HOLA JULI!</h2>
+
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="admin" && document.form1.num.value=="1234"){window.location="usuario.html"}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+<form name="form1">
+<input type="text" name="txt"> Usuario (admin)<br>
+<input type="text" name="num"> Contraseña (1234)<br>
+<input type="button" value="ir a.." onclick="usrpas()">
+</form>
+
+
+
+
+	
+
+
+	<svg width="600" height="600" id="entorno">
+		<g id="fondo"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/pikachu.png" width="400" height="400" x="200" y="100"></g>
+	<g class="padre" id="0"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/1.png" class="movil"></g>
+	<g class="padre" id="1"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/2.png" class="movil"></g>
+	<g class="padre" id="2"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/3.png" class="movil"></g>
+	<g class="padre" id="3"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/4.png" class="movil"></g>
+	<g class="padre" id="4"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/5.png" class="movil"></g>
+	<g class="padre" id="5"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/6.png" class="movil"></g>
+	<g class="padre" id="6"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/7.png" class="movil"></g>
+	<g class="padre" id="7"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/8.png" class="movil"></g>
+	<g class="padre" id="8"><image xlink:href="file:///Users/camila/Documents/MUSICOTERAPIA/PikaPuzzle-master/img/nietos/9.png" class="movil"></g>
+</svg>
+<audio id="win" src="https://raw.githubusercontent.com/NestorPlasencia/PikaPuzzle/master/media/win.mp3"></audio>
+<div id="obj1">
+	<h2>Un instante feliz, para cada noche sin poder dormir...</h2>
+	</div>
+	
+
+<script type="text/javascript" src="js/main2.js"></script>
+Esto es un comentario -->
+
+</body>
