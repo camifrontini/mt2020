@@ -8,13 +8,26 @@ body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 0px solid #f1f1f1; margin: 100px;
 }
 
+
+h2 {
+  color: #3c1b66;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 50px
+  }
+
+
 input[type=text], input[type=password] {
-  width: 50%;
+  width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
   display: block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  font-size: 24px
 }
 
 .button {
@@ -25,6 +38,8 @@ input[type=text], input[type=password] {
   border: none;
   cursor: pointer;
   width: 10%;
+  font-size: 24px
+
 }
 
 button:hover {
@@ -73,14 +88,14 @@ span.psw {
 
 <form name="form1">
   <div class="imgcontainer">
-    <img src="https://drive.google.com/open?id=1XSef9WpZpJxtZeII9p1-mVFB_ZIQpEke" alt="Instrumento" class="avatar">
+    <img src="https://raw.githubusercontent.com/camifrontini/mt2020/gh-pages/img/guitarra.png" alt="Instrumento" class="avatar">
   </div>
 
   <div class="container">
     <label for="uname"><b>¿Qué instrumento es?</b></label>
     <input type="text" name="txt" placeholder="instrumento">
 
-    <label for="psw"><b>¿Cómo es tu nombre</b></label>
+    <label for="psw"><b>¿Cuál es tu nombre?</b></label>
     <input type="text" name="num" placeholder="julian">
         
  	<input type="button" class="button" value="ENTRAR" onclick="usrpas()">
